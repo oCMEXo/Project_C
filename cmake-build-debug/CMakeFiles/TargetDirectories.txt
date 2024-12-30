@@ -1,3 +1,4 @@
-C:/Users/artem/Desktop/Lerning_C/Project_C/cmake-build-debug/CMakeFiles/Project_C.dir
-C:/Users/artem/Desktop/Lerning_C/Project_C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/artem/Desktop/Lerning_C/Project_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/artem/CLionProjects/Project_C/cmake-build-debug/CMakeFiles/Project_C.dir
+C:/Users/artem/CLionProjects/Project_C/cmake-build-debug/CMakeFiles/Project_C2.dir
+C:/Users/artem/CLionProjects/Project_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/artem/CLionProjects/Project_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
