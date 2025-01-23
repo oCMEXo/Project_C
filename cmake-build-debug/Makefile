@@ -141,6 +141,30 @@ Project_C2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C2.dir\build.make CMakeFiles/Project_C2.dir/build
 .PHONY : Project_C2/fast
 
+Lab6/main.obj: Lab6/main.c.obj
+.PHONY : Lab6/main.obj
+
+# target to build an object file
+Lab6/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C.dir\build.make CMakeFiles/Project_C.dir/Lab6/main.c.obj
+.PHONY : Lab6/main.c.obj
+
+Lab6/main.i: Lab6/main.c.i
+.PHONY : Lab6/main.i
+
+# target to preprocess a source file
+Lab6/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C.dir\build.make CMakeFiles/Project_C.dir/Lab6/main.c.i
+.PHONY : Lab6/main.c.i
+
+Lab6/main.s: Lab6/main.c.s
+.PHONY : Lab6/main.s
+
+# target to generate assembly for a file
+Lab6/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C.dir\build.make CMakeFiles/Project_C.dir/Lab6/main.c.s
+.PHONY : Lab6/main.c.s
+
 lab3/main.obj: lab3/main.c.obj
 .PHONY : lab3/main.obj
 
@@ -165,29 +189,29 @@ lab3/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C.dir\build.make CMakeFiles/Project_C.dir/lab3/main.c.s
 .PHONY : lab3/main.c.s
 
-lab4/mainlab4.obj: lab4/mainlab4.c.obj
-.PHONY : lab4/mainlab4.obj
+lab5/main.obj: lab5/main.c.obj
+.PHONY : lab5/main.obj
 
 # target to build an object file
-lab4/mainlab4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C2.dir\build.make CMakeFiles/Project_C2.dir/lab4/mainlab4.c.obj
-.PHONY : lab4/mainlab4.c.obj
+lab5/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C2.dir\build.make CMakeFiles/Project_C2.dir/lab5/main.c.obj
+.PHONY : lab5/main.c.obj
 
-lab4/mainlab4.i: lab4/mainlab4.c.i
-.PHONY : lab4/mainlab4.i
+lab5/main.i: lab5/main.c.i
+.PHONY : lab5/main.i
 
 # target to preprocess a source file
-lab4/mainlab4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C2.dir\build.make CMakeFiles/Project_C2.dir/lab4/mainlab4.c.i
-.PHONY : lab4/mainlab4.c.i
+lab5/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C2.dir\build.make CMakeFiles/Project_C2.dir/lab5/main.c.i
+.PHONY : lab5/main.c.i
 
-lab4/mainlab4.s: lab4/mainlab4.c.s
-.PHONY : lab4/mainlab4.s
+lab5/main.s: lab5/main.c.s
+.PHONY : lab5/main.s
 
 # target to generate assembly for a file
-lab4/mainlab4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C2.dir\build.make CMakeFiles/Project_C2.dir/lab4/mainlab4.c.s
-.PHONY : lab4/mainlab4.c.s
+lab5/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C2.dir\build.make CMakeFiles/Project_C2.dir/lab5/main.c.s
+.PHONY : lab5/main.c.s
 
 # Help Target
 help:
@@ -199,12 +223,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Project_C
 	@echo ... Project_C2
+	@echo ... Lab6/main.obj
+	@echo ... Lab6/main.i
+	@echo ... Lab6/main.s
 	@echo ... lab3/main.obj
 	@echo ... lab3/main.i
 	@echo ... lab3/main.s
-	@echo ... lab4/mainlab4.obj
-	@echo ... lab4/mainlab4.i
-	@echo ... lab4/mainlab4.s
+	@echo ... lab5/main.obj
+	@echo ... lab5/main.i
+	@echo ... lab5/main.s
 .PHONY : help
 
 

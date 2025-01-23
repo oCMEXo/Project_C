@@ -82,12 +82,12 @@ clean: CMakeFiles/Project_C2.dir/clean
 CMakeFiles/Project_C.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C.dir\build.make CMakeFiles/Project_C.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C.dir\build.make CMakeFiles/Project_C.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\artem\CLionProjects\Project_C\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Project_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\artem\CLionProjects\Project_C\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Project_C"
 .PHONY : CMakeFiles/Project_C.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Project_C.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\artem\CLionProjects\Project_C\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\artem\CLionProjects\Project_C\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Project_C.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\artem\CLionProjects\Project_C\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Project_C.dir/rule
@@ -108,7 +108,7 @@ CMakeFiles/Project_C.dir/clean:
 CMakeFiles/Project_C2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C2.dir\build.make CMakeFiles/Project_C2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_C2.dir\build.make CMakeFiles/Project_C2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\artem\CLionProjects\Project_C\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Project_C2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\artem\CLionProjects\Project_C\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target Project_C2"
 .PHONY : CMakeFiles/Project_C2.dir/all
 
 # Build rule for subdir invocation for target.

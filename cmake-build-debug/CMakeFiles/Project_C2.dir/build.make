@@ -68,28 +68,28 @@ include CMakeFiles/Project_C2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Project_C2.dir/flags.make
 
-CMakeFiles/Project_C2.dir/lab4/mainlab4.c.obj: CMakeFiles/Project_C2.dir/flags.make
-CMakeFiles/Project_C2.dir/lab4/mainlab4.c.obj: C:/Users/artem/CLionProjects/Project_C/lab4/mainlab4.c
-CMakeFiles/Project_C2.dir/lab4/mainlab4.c.obj: CMakeFiles/Project_C2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\artem\CLionProjects\Project_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project_C2.dir/lab4/mainlab4.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project_C2.dir/lab4/mainlab4.c.obj -MF CMakeFiles\Project_C2.dir\lab4\mainlab4.c.obj.d -o CMakeFiles\Project_C2.dir\lab4\mainlab4.c.obj -c C:\Users\artem\CLionProjects\Project_C\lab4\mainlab4.c
+CMakeFiles/Project_C2.dir/lab5/main.c.obj: CMakeFiles/Project_C2.dir/flags.make
+CMakeFiles/Project_C2.dir/lab5/main.c.obj: C:/Users/artem/CLionProjects/Project_C/lab5/main.c
+CMakeFiles/Project_C2.dir/lab5/main.c.obj: CMakeFiles/Project_C2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\artem\CLionProjects\Project_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project_C2.dir/lab5/main.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project_C2.dir/lab5/main.c.obj -MF CMakeFiles\Project_C2.dir\lab5\main.c.obj.d -o CMakeFiles\Project_C2.dir\lab5\main.c.obj -c C:\Users\artem\CLionProjects\Project_C\lab5\main.c
 
-CMakeFiles/Project_C2.dir/lab4/mainlab4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Project_C2.dir/lab4/mainlab4.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\artem\CLionProjects\Project_C\lab4\mainlab4.c > CMakeFiles\Project_C2.dir\lab4\mainlab4.c.i
+CMakeFiles/Project_C2.dir/lab5/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Project_C2.dir/lab5/main.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\artem\CLionProjects\Project_C\lab5\main.c > CMakeFiles\Project_C2.dir\lab5\main.c.i
 
-CMakeFiles/Project_C2.dir/lab4/mainlab4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Project_C2.dir/lab4/mainlab4.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\artem\CLionProjects\Project_C\lab4\mainlab4.c -o CMakeFiles\Project_C2.dir\lab4\mainlab4.c.s
+CMakeFiles/Project_C2.dir/lab5/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Project_C2.dir/lab5/main.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\artem\CLionProjects\Project_C\lab5\main.c -o CMakeFiles\Project_C2.dir\lab5\main.c.s
 
 # Object files for target Project_C2
 Project_C2_OBJECTS = \
-"CMakeFiles/Project_C2.dir/lab4/mainlab4.c.obj"
+"CMakeFiles/Project_C2.dir/lab5/main.c.obj"
 
 # External object files for target Project_C2
 Project_C2_EXTERNAL_OBJECTS =
 
-Project_C2.exe: CMakeFiles/Project_C2.dir/lab4/mainlab4.c.obj
+Project_C2.exe: CMakeFiles/Project_C2.dir/lab5/main.c.obj
 Project_C2.exe: CMakeFiles/Project_C2.dir/build.make
 Project_C2.exe: CMakeFiles/Project_C2.dir/linkLibs.rsp
 Project_C2.exe: CMakeFiles/Project_C2.dir/objects1.rsp
